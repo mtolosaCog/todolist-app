@@ -123,7 +123,7 @@ export function TodoList() {
         <br />
         <div className="completeTasksBut">
           <Button onClick={() => setShowCompleted(!showCompleted)}>
-            {showCompleted ? "Hide Completed" : "Show Completed"}
+            {showCompleted ? "Show All Tasks" : "Show Completed"}
           </Button>
           {showCompleted && (
             <Button onClick={handleRemoveCompletedTasks}>
