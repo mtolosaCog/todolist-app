@@ -30,8 +30,11 @@ export function TodoList() {
 
   const handleAddTodo = () => {
     if (inputValue.trim() !== "") {
+      const previousTaskId = todos[todos.length - 1];
+      const newTaskId = previousTaskId ? previousTaskId.taskId + 1 : 1;
+
       const newTodo = {
-        taskId: todos.length + 1,
+        taskId: newTaskId, //issue with id duplication, need another method to do so
         text: inputValue,
         completed: false,
         datetimeCreated: new Date().toLocaleString(),
