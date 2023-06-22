@@ -64,11 +64,9 @@ export function TodoList() {
   };
 
   const handleEditTodoStart = (taskId) => {
-    const todo = todos.find((t) => t.taskId === taskId);
-    if (todo) {
+    const todoBeginEdit = todos.find((todo) => todo.taskId === taskId);
       setEditingTaskId(taskId);
-      setEditedTaskText(todo.text);
-    }
+      setEditedTaskText(todoBeginEdit.text);
   };
 
   const handleEditTodoSave = (taskId) => {
