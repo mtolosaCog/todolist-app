@@ -1,0 +1,26 @@
+[
+    {
+        "taskId": 1,
+        "text": "Task 1",
+        "completed": false,
+        "datetimeCreated": "6/20/2023, 8:37:10 AM"
+    },
+    {
+        "taskId": 2,
+        "text": "Get groceries",
+        "completed": true,
+        "datetimeCreated": "6/21/2023, 11:44:24 AM"
+    },
+    {
+        "taskId": 3,
+        "text": "Do math assignment",
+        "completed": false,
+        "datetimeCreated": "6/21/2023, 10:32:00 AM"
+    },
+    {
+        "taskId": 4,
+        "text": "Clean your room",
+        "completed": false,
+        "datetimeCreated": "6/21/2023, 2:15:38 PM"
+    }
+]
